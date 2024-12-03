@@ -9,7 +9,7 @@
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <link href="${pageContext.request.contextPath}/resources/css/parkinglot.css?v=1.0" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/parkinglot.css"> 
-<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=fd90a39c953cfb75632633381ca03afc&libraries=services" ></script>	
+<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey={APIKEY}&libraries=services" ></script>	
 <script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/parking_searchbar.js"></script>
 
 

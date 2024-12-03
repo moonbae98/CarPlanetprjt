@@ -14,6 +14,7 @@ html, body {
 	flex-direction: column;
 }
 
+
 .section {
 	display: flex;
 	background-color:#f6f5f7;

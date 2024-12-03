@@ -36,6 +36,7 @@ import lombok.AllArgsConstructor;
 @AllArgsConstructor
 public class AuthController {
 	
+	
 	private UserService userService;
 	
 	@GetMapping("Login.do")

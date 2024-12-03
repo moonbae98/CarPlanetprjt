@@ -106,7 +106,7 @@ public class MainController {
     public ResponseEntity<String> getOilStations(@PathVariable("areaCode") String areaCode) {
 
         // 요청할 외부 API URL (파라미터를 클라이언트에서 받지 않음)
-        String apiUrl = "http://www.opinet.co.kr/api/lowTop10.do?out=json&code=F241113446&prodcd=B027&area="+areaCode;
+        String apiUrl = "http://www.opinet.co.kr/api/lowTop10.do?out=json&code={APIKEY}&prodcd=B027&area="+areaCode;
 
         // RestTemplate을 사용하여 외부 API에 GET 요청
         RestTemplate restTemplate = new RestTemplate();
@@ -132,7 +132,7 @@ public class MainController {
     public ResponseEntity<String> getRecentPrice() {
 
         // 요청할 외부 API URL (파라미터를 클라이언트에서 받지 않음)
-        String apiUrl = "http://www.opinet.co.kr/api/avgRecentPrice.do?out=json&code=F241113446";
+        String apiUrl = "http://www.opinet.co.kr/api/avgRecentPrice.do?out=json&code={APIKEY}";
 
         // RestTemplate을 사용하여 외부 API에 GET 요청
         RestTemplate restTemplate = new RestTemplate();

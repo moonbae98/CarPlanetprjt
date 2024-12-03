@@ -8,7 +8,7 @@
 <link href="${pageContext.request.contextPath}/resources/css/evmap.css?v=1.0" rel="stylesheet" type="text/css">
 <title>Car Planet 주유소</title>
 <script type="text/javascript"
-	src="//dapi.kakao.com/v2/maps/sdk.js?appkey=9dc9962fd8d9c313d5ca5a57212228ab&libraries=services,geometry"></script>
+	src="//dapi.kakao.com/v2/maps/sdk.js?appkey={APIKEY}&libraries=services,geometry"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="${pageContext.request.contextPath}/resources/js/gas.js"></script>
 <script src="${pageContext.request.contextPath}/resources/js/gasroad.js"></script>
